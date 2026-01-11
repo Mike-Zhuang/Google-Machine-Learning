@@ -1,0 +1,97 @@
+### macOS 系统的文件 ###
+.DS_Store
+.AppleDouble
+.LSOverride
+# 资源分叉文件
+._*
+# 缩略图缓存
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+### Python 相关文件 ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+# 分发/打包
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### 虚拟环境 ###
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+share/
+pyvenv.cfg
+
+### 机器学习与大数据文件 ###
+# 本地大文件或数据集（根据实际需求调整）
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+*.7z
+data/
+datasets/
+
+# 机器学习模型文件 (通常体积较大，不建议存入 git)
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.weights
+checkpoint/
+checkpoints/
+
+# Jupyter Notebook 自动备份
+.ipynb_checkpoints
+
+### IDE 相关文件 ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iws
+
+# 其他临时文件
+*.swp
+*.swo
+.env
+.secrets
